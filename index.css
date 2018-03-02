@@ -4,7 +4,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  white-space: nowrap;
 }
+
 #websiteTitle {
   font-size: 40px;
   vertical-align: middle;
@@ -13,24 +15,53 @@ body {
 }
 
 .head-banner {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
   background-color: black;
-  margin-left: 0;
 }
 
-.slide1 {
-  background-image: url('crimestats3.png');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.tool-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-style: outset;
+  background-color: white;
+}
+
+.sub-container {
+  float: left;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.tool {
+  display: inline;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+#problem {
+  width: 100px;
+}
+
+#totalCount {
+  margin-left: 25px;
+  padding-left: 25px;
+  float: left;
+  font-size: 30px;
 }
 
 #map-display {
-    float: right;
-    width: 700px;
-    height: 400px;
+  float: right;
+  width: 65%;
+  height: 400px;
+}
+
+p {
+  font-size: 20px;
+}
+
+br {
+   line-height: 100%;
 }
