@@ -1,1 +1,11 @@
 
+body {
+  font-size: 62.5%;
+  font-family: arial, sans-serif;
+}
+#websiteTitle {
+  font-size: 10em;
+  verticle-align: middle;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
