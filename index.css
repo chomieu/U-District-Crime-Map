@@ -1,13 +1,13 @@
-
 body {
   font-family: arial, sans-serif;
 }
 #websiteTitle {
-  font-size: 30px;
+  font-size: 20px;
   vertical-align: middle;
   font-family: 'Pacifico', cursive;
-  padding-left: 15px;
+  color: white;
 }
+
 .head-banner {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -15,12 +15,7 @@ body {
   text-align: center;
   background-color: black;
 }
-.tab-content{
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-}
+
 .slide1 {
   background-image: url('crimestats3.png');
   height: 500px;
