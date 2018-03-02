@@ -7,10 +7,14 @@ body {
   verticle-align: middle;
   font-family: 'Pacifico', cursive;
   padding-left: 15px;
+  color: white;
 }
 .jumbotron {
-  background-color:#2E2D88;
-  color:black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  background-color: #000000;
+  color: inherit;
 }
 .tab-content{
   botder-left: 1px solid #ddd;
