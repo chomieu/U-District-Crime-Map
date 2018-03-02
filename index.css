@@ -22,6 +22,10 @@ body {
   botder-bottom: 1px solid #ddd;
   padding: 10px;
 }
-.nav-tabs {
-  margin-bottom: 0;
+.slide1 {
+  background-image: url('crimestats3.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
