@@ -16,9 +16,9 @@ body {
   color: inherit;
 }
 .tab-content{
-  botder-left: 1px solid #ddd;
-  botder-right: 1px solid #ddd;
-  botder-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 10px;
 }
 .slide1 {
