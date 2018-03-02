@@ -9,3 +9,16 @@ body {
   font-family: 'Pacifico', cursive;
   padding-bottom: .4em;
 }
+.jumbotron {
+  background-color:#2E2D88;
+  color:white;
+}
+.tab-content{
+  botder-left: 1px solid #ddd;
+  botder-right: 1px solid #ddd;
+  botder-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.nav-tabs {
+  margin-bottom: 0;
+}
