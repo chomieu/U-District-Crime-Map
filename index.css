@@ -8,12 +8,11 @@ body {
   font-family: 'Pacifico', cursive;
   padding-left: 15px;
 }
-.jumbotron {
+.head-banner {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  background-color: #696969;
-  color: inherit;
+  background-color: black;
 }
 .tab-content{
   border-left: 1px solid #ddd;
