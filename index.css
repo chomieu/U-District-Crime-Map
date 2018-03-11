@@ -45,6 +45,8 @@ body {
 }
 
 .sub-container {
+  display: flex;
+  justify-content: center;
   width: 600px;
   height: calc(100vh - 225px);
 }
@@ -70,10 +72,6 @@ body {
 
 #totalCountOut {
   font-size: 35px;
-}
-
-p {
-  font-size: 20px;
 }
 
 br {
@@ -191,4 +189,151 @@ input:checked + .slider:before {
 
 .modebar{
       display: none !important;
+}
+
+.tabs {
+  background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.tabs:hover {
+	background-color:#5cbf2a;
+}
+.tabs:active {
+	position:relative;
+	top:1px;
+}
+
+#loader {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 15px solid #bbb;
+  border-radius: 50%;
+  border-top: 15px solid #000;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+.cb {
+    display: none;
+    vertical-align: middle;
+}
+
+.pics {
+  display: flex;
+  height: calc(100vh - 225px);
+  justify-content: center;
+  vertical-align: middle;
+  width: 1300px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  padding-right: 70px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+#dot_slider {
+  margin-top: 20px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  height: 20px;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 5px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
